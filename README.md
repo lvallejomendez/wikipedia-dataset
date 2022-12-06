@@ -2,6 +2,8 @@
 
 Python has a built-in parser for HTML. Knowing how to use and take advantage of the HTMLParser library will help you when parsing is needed for simple tasks that do not need much effort.
 
+This repository and its contents are closely related to the [Scripting with Python and SQL for Data Engineering course on coursera](https://www.coursera.org/learn/scripting-with-python-sql-for-data-engineering-duke?specialization=python-bash-sql-data-engineering-duke) (week 3).
+
 This parser is simple to use but not very flexible if you need advanced support. The `HTMLParser` is a _streaming_ parser, which provides information about the parsing as it reads the document. This allows you to detect tags and data as it happens. It can get difficult to use when multiple nested tags that are similar exist, for example in a table with multiple rows.
 
 Use the _scraping-with-htmlparser.ipynb_ file to use `HTMLParser` to extract data from HTML.
